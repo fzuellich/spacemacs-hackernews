@@ -1,0 +1,24 @@
+#+TITLE: Hackernews layer
+#+TAGS: fun|layer
+
+* Description
+
+Layer adds support for [[https://github.com/clarete/hackernews.el][Hackernews]] package in Spacemacs.
+
+* Install
+Clone the content of this repository into =.emacs.d/private/hackernews=. Now the
+layer should show up when you press ~SPC h l~ and search for =hackernews=.
+
+* Keybindings
+** Global bindings
+| Key binding | Command          |
+|-------------+------------------|
+| ~SPC a h~   | Start hackernews |
+
+** Hackernews mode
+| Key binding | Command             |
+|-------------+---------------------|
+| ~, n~       | Go to next item     |
+| ~, p~       | Go to previous item |
+| ~, r~       | Reload hackernews   |
+| ~, m~       | Load more stories   |
