@@ -19,13 +19,18 @@
 (defun hackernews//set-leader-keys ()
   (spacemacs/set-leader-keys
     "ah" 'hackernews))
-
 (defun hackernews//set-major-mode-keys ()
   (spacemacs/set-leader-keys-for-major-mode 'hackernews-mode
     "n" 'hackernews-next-item
     "p" 'hackernews-previous-item
     "r" 'hackernews-reload
-    "m" 'hackernews-load-more-stories))
+    "m" 'hackernews-load-more-stories
+    "fa" 'hackernews-ask-stories
+    "fb" 'hackernews-best-stories
+    "fj" 'hackernews-job-stories
+    "fn" 'hackernews-new-stories
+    "fs" 'hackernews-show-stories))
+
 
 (defun hackernews/init-hackernews ()
   (use-package hackernews

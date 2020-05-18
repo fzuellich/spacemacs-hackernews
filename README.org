@@ -22,3 +22,8 @@ layer should show up when you press ~SPC h l~ and search for =hackernews=.
 | ~, p~       | Go to previous item |
 | ~, r~       | Reload hackernews   |
 | ~, m~       | Load more stories   |
+| ~f b~       | Best stories        |
+| ~f a~       | Ask stories         |
+| ~f j~       | Job stories         |
+| ~f s~       | Show stories        |
+| ~f n~       | New stories         |
